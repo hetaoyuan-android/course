@@ -1,0 +1,126 @@
+<div id="queryCourse">                
+    <h2>班级信息查询</h2> 
+    <!-- 查询条件 -->
+    <div class="queryForm">
+    <form class="niceform">
+        <!-- dl表示列表 形式为一行，dt表示列表标题，dd表示列表内容 -->
+    	<dl>
+			<dt><label for="cClassCdt">班级名称:</label></dt>
+			<dd>
+				<select size="1" id="cClassName">
+					<option value="">请选择</option>
+                	<option value="祥云1期">祥云1期</option>
+                	<option value="祥云2期">祥云2期</option>
+                	<option value="祥云3期">祥云3期</option>
+                	<option value="祥云4期">祥云4期</option>
+                	<option value="祥云5期">祥云5期</option>
+	        	</select>
+	   		</dd>
+	   		  <dt><label for="cTeacherCdt">当前阶段:</label></dt>
+             <dd>
+             	<select size="1" id="cClassStage">
+             		<option value="">请选择</option>
+                	<option value="一期">一期</option>
+                	<option value="二期">二期</option>
+                	<option value="三期">三期</option>
+             	</select>
+           	</dd>
+			<dd>
+      	</dl>
+      	<dl>
+      		<dt><label for="cBeginCdt">开课开始时间:</label></dt>
+      		<dd><input type="text" id="cClassBegin" size="23" /></dd>
+      		<dt><label for="cEndCdt">开课结束时间:</label></dt>
+      		<dd><input type="text" id="cClassEnd" size="23" /></dd>
+			<dd>
+      	</dl>
+      	<dl style="margin-left: 370px">
+          	  <input type="button" name="searchSubmit" value="Submit"/>
+			</dd>
+      	</dl>
+    </form>
+    </div>
+	<table id="rounded-corner">
+	    <thead>
+	    	<tr>
+	        	<th class="rounded-company"></th>
+	            <th class="rounded">班级名称</th>
+	            <th class="rounded">当前阶段</th>
+	            <th class="rounded">开课日期</th>
+	            <th class="rounded">结课日期</th>
+	            <th class="rounded">总课时</th>
+	            <th class="rounded">班级教室</th>
+	            <th class="rounded">是否启用</th>
+	            <th class="rounded">授课教师</th>
+	        </tr>
+	    </thead>
+	        <tfoot>
+	    	<tr>
+	        	<td colspan="6" class="rounded-foot-left"><em>想查看更详细的信息，请点击详情。详情中可以对学生签到信息进行查看和修改。</em></td>
+	        	<td class="rounded-foot-right">&nbsp;</td>
+	
+	        </tr>
+	    </tfoot>
+	    <tbody>
+	    	<tr>
+	        	<td><input type="checkbox" name="" /></td>
+	            <td>level_2_class</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	        </tr>
+	        
+	    	<tr>
+	    		<td><input type="checkbox" name="" /></td>
+	        	<td>level_2_class</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	        </tr> 
+	        
+	    	<tr>
+	    		<td><input type="checkbox" name="" /></td>
+	        	<td>level_2_class</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	        </tr>
+	        
+	    	<tr>
+	    		<td><input type="checkbox" name="" /></td>
+	            <td>level_2_class</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	            <td>jQuery_1</td>
+	        </tr>  
+	        
+	    
+	    </tbody>
+	</table>
+	<!-- 表格功能按钮 -->
+	 <a href="javascript:void(0)" class="bt_green" name="addClass" ><span class="bt_green_lft"></span><strong>新增班级</strong><span class="bt_green_r"></span></a>
+     <a href="javascript:void(0)" class="bt_blue" name="alterClassOne"><span class="bt_blue_lft"></span><strong>修改班级</strong><span class="bt_blue_r"></span></a>
+     <a href="javascript:void(0)" class="bt_red" name="delClass"><span class="bt_red_lft"></span><strong>删除班级</strong><span class="bt_red_r"></span></a> 
+     
+     <!-- 表格分页控件，用我发的替换 -->
+<!--         <div class="pagination"> -->
+<!--         <span class="disabled"><< prev</span><span class="current">1</span><a href="">2</a><a href="">3</a><a href="">4</a><a href="">5</a>…<a href="">10</a><a href="">11</a><a href="">12</a>...<a href="">100</a><a href="">101</a><a href="">next >></a> -->
+<!--         </div>  -->
+		 <!-- 表格结束 --> 
+		</div>    

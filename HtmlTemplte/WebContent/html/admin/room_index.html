@@ -1,0 +1,111 @@
+<script type="text/javascript" src="js/roomDemo.js "></script>
+<div id="queryCourse">                
+    <h2>课程信息查询</h2> 
+    <!-- 查询条件 -->
+    <div class="queryForm">
+    <form class="niceform">
+        <!-- dl表示列表 形式为一行，dt表示列表标题，dd表示列表内容 -->
+    	<dl>
+			<dt><label for="cClassCdt">教室名称:</label></dt>
+			<dd>
+				<select size="1" id="roomName">
+					<option value="">请选择</option>
+                	<option value="一教">一教</option>
+                	<option value="二教">二教</option>
+                	<option value="三教">三教</option>
+                	<option value="四教">四教</option>
+                	<option value="五教">五教</option>
+	        	</select>
+	   		</dd>
+	   		 <dt><label for="cTeacherCdt">归属学校:</label></dt>
+             <dd>
+             	<select size="1" id="roomSchool">
+             		<option value="">请选择</option>
+                	<option value="理工">理工</option>
+                	<option value="吉大">吉大</option>
+                	<option value="长大">长大</option>
+             	</select>
+           	</dd>
+      	</dl>
+      	<dl>
+      		<dt><label for="cBeginCdt">教室人数:</label></dt>
+      		<dd><input type="text" id="roomNumber" size="26" /></dd>
+      		<dt><label for="cClass">启用状态:</label></dt>
+            	<dd>
+                	<select size="1" id="roomStatus">
+                		  <option value="">请选择</option>
+	                      <option value="启用">启用</option>
+	                      <option value="禁用">禁用</option>
+                     </select>
+                </dd>
+      	</dl>
+      	<dl style="text-align: center;">
+			<dd style="margin-left: 350px">
+          	  <input type="button" id="searchRoom" value="Submit"  />
+			</dd>
+		</dl>
+    </form>
+    </div>
+	<table id="rounded-corner">
+	    <thead>
+	    	<tr>
+	        	<th class="rounded-company"></th>
+	            <th class="rounded">教室名称</th>
+	            <th class="rounded">归属分校</th>
+	            <th class="rounded">教室人数</th>
+	            <th class="rounded">启用状态</th>
+	        </tr>
+	    </thead>
+	        <tfoot>
+	    	<tr>
+	        	<td colspan="6" class="rounded-foot-left"><em>想查看更详细的信息，请点击详情。详情中可以对学生签到信息进行查看和修改。</em></td>
+	        	<td class="rounded-foot-right">&nbsp;</td>
+	
+	        </tr>
+	    </tfoot>
+	    <tbody>
+	    	<tr>
+	        	<td><input type="checkbox" name="" /></td>
+	            <td>level_2_class_19</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	        </tr>
+	        
+	    	<tr>
+	    		<td><input type="checkbox" name="" /></td>
+	        	<td>level_2_class_19</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	        </tr> 
+	        
+	    	<tr>
+	    		<td><input type="checkbox" name="" /></td>
+	        	<td>level_2_class_19</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	        </tr>
+	        
+	    	<tr>
+	    		<td><input type="checkbox" name="" /></td>
+	            <td>level_2_class_19</td>
+	            <td>第一教室</td>
+	            <td>祥云168期</td>
+	            <td>35/40</td>
+	        </tr>  
+	        
+	        
+	    </tbody>
+	</table>
+	<!-- 表格功能按钮 -->
+<!-- 	 <a href="javascript:void(0)" class="bt_green" name="queryRoom" ><span class="bt_green_lft"></span><strong>查看教室</strong><span class="bt_green_r"></span></a> -->
+	 <a href="javascript:void(0)" class="bt_green" name="addRoom" ><span class="bt_green_lft"></span><strong>新增教室</strong><span class="bt_green_r"></span></a>
+     <a href="javascript:void(0)" class="bt_blue" name="updateRoomClick"><span class="bt_blue_lft"></span><strong>修改教室</strong><span class="bt_blue_r"></span></a>
+     <a href="javascript:void(0)" class="bt_red" id="deleteRoom"><span class="bt_red_lft"></span><strong>删除教室</strong><span class="bt_red_r"></span></a> 
+     
+     <!-- 表格分页控件，用我发的替换 -->
+        <div class="tcdPageCodeRoom"></div>    
+		 <!-- 表格结束 --> 
+		</div>    

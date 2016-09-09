@@ -1,0 +1,102 @@
+    <div id="addCourse">    
+     <h2>班级修改</h2>
+         <div class="form">
+         <!-- class="niceform"用来定位需要被渲染的控件 -->
+         <form action="" method="post" class="niceform">
+                <fieldset>
+                	
+                	<dl>
+						<dt><label for="cClassCdt"></label></dt>
+						<dd><input type="hidden" id="id" size="54" name="id" />
+						</dd>
+					</dl>
+                   
+                    <dl>
+                        <dt><label for="cClass">班级名称:</label></dt>
+                        <dd>
+                            <select size="1" id="class_name" name="class_name">
+                            	<option  value="">请选择</option>
+                                <option value="祥云1期">祥云1期</option>
+                                <option value="祥云2期">祥云2期</option>
+                                <option value="祥云3期">祥云3期</option>
+                                <option value="祥云4期">祥云4期</option>
+                                <option value="祥云5期">祥云5期</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    
+                      <dl>
+                        <dt><label for="cClass">当前阶段:</label></dt>
+                        <dd>
+                            <select size="1" id="class_stage" name="class_stage">
+                            	<option value="">请选择</option>
+                                <option value="一期">一期</option>
+                                <option value="二期">二期</option>
+                                <option value="三期">三期</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                   
+
+                    <dl>
+                        <dt><label for="cBegin">开课时间:</label></dt>
+                        <dd><input type="text" id="class_startTime" size="54" name="class_startTime"/></dd>
+                    </dl>
+                   		<font color="red" style="display: none;" id="start_time">不为空</font>
+                    <dl>
+                        <dt><label for="cEnd">结课时间:</label></dt>
+                        <dd><input type="text" id="class_endTime" size="54" name="class_endTime"/></dd>
+                    </dl>
+                        <font color="red" style="display: none;" id="end_time">不为空</font>
+                    <dl>
+                        <dt><label for="cPoint">班级课时:</label></dt>
+                        <dd><input type="text" id="class_timeAll" size="54" name="class_timeAll" /></dd>
+                    </dl>
+                    	 <font color="red" style="display: none;" id="time_all">不为空</font>
+                    <dl>
+                        <dt><label for="cClass">班级教室:</label></dt>
+                        <dd>
+                            <select size="1" id="class_room" name="class_room">
+                            	<option  value="">请选择</option>
+                                <option value="一教">一教</option>
+                                <option value="二教">二教</option>
+                                <option value="三教">三教</option>
+                                <option value="四教">四教</option>
+                                <option value="五教">五教</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><label for="cClass">启用状态:</label></dt>
+                        <dd>
+                            <select size="1" id="class_status" name="class_status">
+                            	<option  value="">请选择</option>
+                                <option value="启用">启用</option>
+                                <option value="禁用">禁用</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><label for="cClass">授课教师:</label></dt>
+                        <dd>
+                            <select size="1" id="class_teacher" name="class_teacher">
+                            	<option  value="">请选择</option>
+                                <option value="王老师">王老师</option>
+                                <option value="李老师">李老师</option>
+                                <option value="赵老师">赵老师</option>
+                                <option value="邓老师">邓老师</option>
+                                <option value="高老师">高老师</option>
+                            </select>
+                        </dd>
+                    </dl>
+                     <dl class="submit">
+                   		 <input type="button" name="submit" id="updateClassAll" value="Submit" />
+                     </dl>
+                </fieldset>
+                
+         </form>
+         </div>  
+      </div>  
+      <div id="tips_Suc" style="display:none;" class="valid_box"  >恭喜您， 修改成功！</div>
+	   <div id="tips_Default" style="display:none;" class="error_box"  >对不起， 修改失败！</div>   

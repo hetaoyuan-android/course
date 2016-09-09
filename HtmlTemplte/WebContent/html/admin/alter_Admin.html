@@ -1,0 +1,145 @@
+    <div id="alterCourse">    
+     <h2>账号新增</h2>
+         <div class="form">
+         <form id="alertAdminForm" action="" method="post" class="niceform">
+                <fieldset>
+                <dl>
+					<dt><label for="cClassCdt"></label></dt>
+					<dd><input type="hidden" id="id" size="54"  name="id" />
+					</dd>
+				</dl>
+            	<dl>
+					<dt><label for="cClassCdt">账号:</label></dt>
+					<dd><input type="text" id="account" size="54" readonly="readonly" name="account" />
+					<font color="red">不可修改</font>
+					</dd>
+				</dl>
+				<dl>
+	   				<dt><label for="cTeacherCdt">密码:</label></dt>
+            		<dd><input type="text" id="password" size="54" name="password"/>
+            		<font color="red" id="password_Unkong" style="display: none;" >不为空</font>
+            		</dd>
+      			</dl>
+      			<dl>
+      				<dt><label for="cBeginCdt">性别:</label></dt>
+      				<dd><input type="text" id="sex" size="54" name="sex" />
+      				<font color="red" id="sex_Unkong" style="display: none;">不为空</font>
+      				</dd>
+      			</dl>
+      			<dl>
+      				<dt><label for="cEndCdt">学校:</label></dt>
+      				<dd><input type="text" id="school" size="54" name="school"/>
+      				<font color="red" id="school_Unkong" style="display: none;">不为空</font>
+      				</dd>
+      			</dl>
+      			<dl>
+      				<dt><label for="cNameCdt">专业:</label></dt>
+      				<dd><input type="text" id="profession" size="54" name="profession" />
+      				<font color="red" id="pro_Unkong" style="display: none;">不为空</font>
+      				</dd>
+      			</dl>
+      			
+      			<dl>
+      				<dt><label for="cNameCdt">QQ:</label></dt>
+      				<dd><input type="text" id="qq" size="54" name="qq" />
+      				<font color="red" id="qq_Unkong" style="display: none;">不为空</font>
+      			</dd>
+      			</dl>
+      			<dl>
+      				<dt><label for="cNameCdt">电话:</label></dt>
+      				<dd><input type="text" id="phone" size="54" name="phone" />
+      				<font color="red" id="phone_Unkong" style="display: none;">不为空</font>
+      				</dd>
+      				<dt></dt>
+      			</dl>
+      			<dl>
+      				<dt><label for="cNameCdt">中文姓名:</label></dt>
+      				<dd><input type="text" id="chinese_name" size="54" name="chinese_name" />
+      				<font color="red" id="cn_Unkong" style="display: none;">不为空</font>
+      				</dd>
+      			</dl>
+      			<dl>
+      				<dt><label for="cNameCdt">入学年级:</label></dt>
+      				<dd><input type="text" id="grade" size="54" name="grade"/>
+      				<font color="red" id="grade_Unkong" style="display: none;">不为空</font>
+      				</dd>
+      				<dt></dt>
+      			</dl>
+      			<dl>
+      				<dt><label for="cNameCdt">角色:</label></dt>
+      				<dd>
+						<select size="1" id="role" style="width:135px" name="role">
+							<option>请选择</option>
+                			<option value="管理员">管理员</option>
+                			<option value="老师">老师</option>
+                			<option value="学生">学生</option>
+	        			</select>
+	        			<font color="red" id="role_Unkong" style="display: none;">不为空</font>
+					</dd>
+      				<dt></dt>
+      			</dl>
+      			<dl>
+					<dt><label for="cClassCdt">籍贯:</label></dt>
+					<dd>
+						<select size="1" id="province" style="width:150px" name="province">
+						<option value="">请选择</option>
+                		<option value="河北省">河北省</option>
+							<option value="山西省">山西省</option>
+							<option value="辽宁省">辽宁省</option>
+							<option value="吉林省">吉林省</option>
+							<option value="黑龙江省">黑龙江省</option>
+							<option value="江苏省">江苏省</option>
+							<option value="浙江省">浙江省</option>
+							<option value="安徽省">安徽省</option>
+							<option value="福建省">福建省</option>
+							<option value="江西省">江西省</option>
+							<option value="山东省">山东省</option>
+							<option value="河南省">河南省</option>
+							<option value="湖北省">湖北省</option>
+							<option value="湖南省">湖南省</option>
+							<option value="广东省">广东省</option>
+							<option value="海南省">海南省</option>
+							<option value="四川省">四川省</option>
+							<option value="贵州省">贵州省</option>
+							<option value="云南省">云南省</option>
+							<option value="陕西省">陕西省</option>
+							<option value="甘肃省">甘肃省</option>
+							<option value="青海省">青海省</option>
+							<option value="台湾省">台湾省</option>
+							<option value="内蒙古自治区">内蒙古自治区</option>
+							<option value="广西壮族自治区">广西壮族自治区</option>
+							<option value="西藏自治区">西藏自治区</option>
+							<option value="宁夏回族自治区">宁夏回族自治区</option>
+							<option value="新疆维吾尔自治区">新疆维吾尔自治区</option>
+							<option value="香港特别行政区">香港特别行政区</option>
+							<option value="澳门特别行政区">澳门特别行政区</option>
+	        			</select>
+	        			<font color="red" id="prov_Unkong" style="display: none;">不为空</font>
+	   				</dd>
+	   			</dl>
+	   			<dl>
+	   		 		<dt><label for="cTeacherCdt">启用状态:</label></dt>
+            		 <dd>
+             		<select size="1" id="status" style="width:100px" name="status">
+	             		<option>请选择</option>
+	                	<option value="启用">启用</option>
+	                	<option value="禁用">禁用</option>
+             		</select>
+             		<font color="red" id="status_Unkong" style="display: none;">不为空</font>
+           			</dd>
+      			</dl>
+      			<dl style="text-align:center;">
+				<dd style="margin-left:170px;">
+				  <img src="css/img/0.png" class="NFButtonLeft">
+				  <input class="NFButton" id="updateSubmit" value="submit" type="button" onclick="updateAddAdmin()">
+	          	  <img class="NFButtonRight" src="css/img/0.png">
+				</dd>
+      			</dl>
+                </fieldset>
+                
+         </form>
+         </div>  
+      </div>     
+      <div id="tips" class="valid_box" style="display: none;">
+       		恭喜您， 修改成功！
+     </div>  

@@ -1,0 +1,13 @@
+	{
+	   "allCourse":[
+			{"id":1,"cName":"level_2_class_10","cClass":"xy4","cTeacher":"llj","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy2","cTeacher":"jyl","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy3","cTeacher":"lwm","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy1","cTeacher":"hb","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy3","cTeacher":"jyl","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy3","cTeacher":"jyl","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy3","cTeacher":"jyl","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"},
+			{"id":1,"cName":"level_2_class_10","cClass":"xy3","cTeacher":"jyl","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"}
+		],
+		"singleCourse":{"id":1,"cName":"level_2_class_10","cClass":"xy2","cTeacher":"hb","cBegin":"2015-10-10 18:00","cEnd":"2015-10-10 20:30","cPoint":"Servlet使用"}
+	 }

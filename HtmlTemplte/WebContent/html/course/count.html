@@ -1,0 +1,67 @@
+<div id="queryCourse">                
+    <h2>签到信息查询</h2> 
+    <!-- 查询条件 -->
+    <div class="queryForm">
+    <form class="niceform" id="countForm">
+        <!-- dl表示列表 形式为一行，dt表示列表标题，dd表示列表内容 -->
+    	<dl>
+			<dt><label for="cClassCdt">班级:</label></dt>
+			<dd>
+				<select size="1" id="cClassCdt">
+                	<option value="xy1">祥云1期</option>
+                	<option value="xy2">祥云2期</option>
+                	<option value="xy3">祥云3期</option>
+                	<option value="xy4">祥云4期</option>
+                	<option value="xy5">祥云5期</option>
+	        	</select>
+	   		</dd>
+	   		 <dt><label for="cTeacherCdt">教师:</label></dt>
+             <dd>
+             	<select size="1" id="cTeacherCdt">
+                	<option value="jyl">姜英利</option>
+                	<option value="llj">林来军</option>
+                	<option value="hb">韩冰</option>
+                	 <option value="lwm">刘文铭</option>
+             	</select>
+           	</dd>
+      	</dl>
+      	<dl>
+      		<dt><label for="cBeginCdt">开课开始时间:</label></dt>
+      		<dd><input type="text" id="cBeginCdt" size="23" /></dd>
+      		<dt><label for="cEndCdt">开课结束时间:</label></dt>
+      		<dd><input type="text" id="cEndCdt" size="23" /></dd>
+			<dd>
+      	</dl>
+      	<dl>
+      		<dt><label for="cNameCdt">课程名:</label></dt>
+      		<dd><input type="text" id="cNameCdt" size="23" /></dd>
+      		<dt></dt>
+			<dd>
+          	  <input type="button" id="querySubmit" value="Submit" />
+			</dd>
+      	</dl>
+    </form>
+    </div>
+	<table id="rounded-corner">
+	    <thead>
+	    	<tr>
+	            <th class="rounded">姓名</th>
+	            <th class="rounded">学号</th>
+	            <th class="rounded">签到状态</th>
+	        </tr>
+	    </thead>
+	        <tfoot>
+	    	<tr>
+	
+	        </tr>
+	    </tfoot>
+	    <tbody>
+	        
+	        
+	        
+	        
+	    </tbody>
+	</table>
+     
+		 <!-- 表格结束 --> 
+		</div>    

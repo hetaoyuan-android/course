@@ -1,0 +1,65 @@
+    <div id="addCourse">    
+     <h2>教室新增</h2>
+         <div class="form">
+         <!-- class="niceform"用来定位需要被渲染的控件 -->
+         <form action="" method="post" class="niceform">
+                <fieldset>
+                	 <dl>
+						<dt><label for="cClassCdt"></label></dt>
+						<dd><input type="hidden" id="id" size="54" name="id" />
+						</dd>
+					</dl>
+                    <dl>
+                        <dt><label for="cName">教室名称:</label></dt>
+                         <dd>
+                            <select size="1" id="roomName" name="roomName">
+                            	<option value="">请选择</option>
+                                <option value="一教">一教</option>
+                                <option value="二教">二教</option>
+                                <option value="三教">三教</option>
+                                <option value="四教">四教</option>
+                                <option value="五教">五教</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><label for="cClass">归属分校:</label></dt>
+                        <dd>
+                            <select size="1" id="roomSchool" name="roomSchool">
+                            	<option value="">请选择</option>
+                                <option value="长大">长大</option>
+                                <option value="理工">理工</option>
+                                <option value="吉大">吉大</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt><label for="cTeacher">教室人数:</label></dt>
+                        <dd><input type="text" id="roomNumber" size="54" name="roomNumber"/>
+						<font color="red" id="account_Unkong" style="display: none;">不为空</font>
+						</dd>
+					</dl>
+					<dl>
+						<dt><label for="cClass">启用状态:</label></dt>
+                        <dd>
+                            <select size="1" id="roomStatus" name="roomStatus">
+                            	<option value="">请选择</option>
+                                <option value="启用">启用</option>
+                                <option value="禁用">禁用</option>
+                            </select>
+                        </dd>
+                    </dl>
+                     <dl class="submit">
+                     	<dd>
+                   		 <input type="button" name="updateAll" value="Submit" />
+                     	</dd>
+                     </dl>
+                </fieldset>
+                
+         </form>
+         </div>  
+          <div id="tips_Suc" style="display:none;" class="valid_box"  >恭喜您， 修改成功！</div>
+	      <div id="tips_Default" style="display:none;" class="error_box"  >对不起， 添加失败！</div>
+	  
+      </div>     

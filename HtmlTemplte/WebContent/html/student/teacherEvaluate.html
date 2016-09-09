@@ -1,0 +1,83 @@
+<div id="queryCourse">                
+    <h2>教师评价</h2> 
+    <!-- 查询条件 -->
+    <div class="queryForm">
+    <form class="niceform">
+        <!-- dl表示列表 形式为一行，dt表示列表标题，dd表示列表内容 -->
+    	<dl>
+	   		 <dt><label for="cTeacherCdt">教师:</label></dt>
+             <dd>
+             	<select size="1" id="teacherEnv" name="teacherEnv">
+                	<option value="">请选择</option>
+                	<option value="姜英利">姜英利</option>
+                	<option value="林来军">林来军</option>
+                	<option value="韩冰">韩冰</option>
+                	<option value="刘文铭">刘文铭</option>
+             	</select>
+           	</dd>
+      	</dl>
+    </form>
+    </div>
+	<table id="rounded-corner">
+	    <thead>
+	    	<tr>
+	            <th class="rounded">评价内容</th>
+	            <th class="rounded">优</th>
+	            <th class="rounded">良</th>
+	            <th class="rounded">中</th>
+	            <th class="rounded">差</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	    	<tr>
+	        	<td>串课、代课方面</td>
+	            <td><input type="checkbox" name="优" value="优" /></td>
+	            <td><input type="checkbox" name="良" value="良"/></td>
+	            <td><input type="checkbox" name="中" value="中"/></td>
+	            <td><input type="checkbox" name="差" value="差"/></td>
+	        </tr>
+	    	<tr>
+	        	<td>穿着得体方面</td>
+	            <td><input type="checkbox" name="优" value="优" /></td>
+	            <td><input type="checkbox" name="良" value="良"/></td>
+	            <td><input type="checkbox" name="中" value="中"/></td>
+	            <td><input type="checkbox" name="差" value="差"/></td>
+	        </tr>
+	    	<tr>
+	        	<td>迟到早退方面</td>
+	            <td><input type="checkbox" name="优" value="优" /></td>
+	            <td><input type="checkbox" name="良" value="良"/></td>
+	            <td><input type="checkbox" name="中" value="中"/></td>
+	            <td><input type="checkbox" name="差" value="差"/></td>
+	        </tr>
+	    	<tr>
+	        	<td>技术高度是否满意</td>
+	            <td><input type="checkbox" name="优" value="优" /></td>
+	            <td><input type="checkbox" name="良" value="良"/></td>
+	            <td><input type="checkbox" name="中" value="中"/></td>
+	            <td><input type="checkbox" name="差" value="差"/></td>
+	        </tr>
+	    	<tr>
+	        	<td>备课充分</td>
+	            <td><input type="checkbox" name="优" value="优" /></td>
+	            <td><input type="checkbox" name="良" value="良"/></td>
+	            <td><input type="checkbox" name="中" value="中"/></td>
+	            <td><input type="checkbox" name="差" value="差"/></td>
+	        </tr>
+	        
+	    </tbody>
+	</table>
+	<br/>
+	<div > 
+		<h3>请写出你的建议：</h3>
+		<textarea rows="5" cols="50" name="advice"></textarea>
+	</div>
+	<!-- 表格功能按钮 -->
+	 <a href="javascript:void(0)" class="bt_green" name="envSubmit" ><span class="bt_green_lft"></span><strong>提交</strong><span class="bt_green_r"></span></a>
+     
+		 <!-- 表格结束 --> 
+		</div>    
+		
+		<div id="tips_Suc" style="display:none;" class="valid_box"  >恭喜您， 评价成功！</div>
+	   <div id="tips_Default" style="display:none;" class="error_box"  >对不起， 评价失败！</div>
+	  
